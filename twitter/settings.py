@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     # third party
     'rest_framework',
     # project apps
-    #'accounts',
+    'accounts',
 ]
 
 REST_FRAMEWORK = {
