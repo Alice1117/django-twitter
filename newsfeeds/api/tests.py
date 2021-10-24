@@ -8,7 +8,7 @@ POST_TWEETS_URL = '/api/tweets/'
 FOLLOW_URL = '/api/friendships/{}/follow/'
 
 # Create your tests here.
-class NewsFeedApiTests(TestCase):
+class NewsFeedsApiTests(TestCase):
     def setUp(self):
 
         self.linghu = self.create_user('linghu')
